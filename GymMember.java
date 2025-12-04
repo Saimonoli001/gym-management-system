@@ -3,7 +3,6 @@ import java.io.Serializable;
 public abstract class GymMember implements Serializable {
     // Add serialVersionUID for version control
     private static final long serialVersionUID = 1L;
-    
     protected int id;
     protected String DOB;
     protected String name;
