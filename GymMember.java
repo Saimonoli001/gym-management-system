@@ -29,7 +29,6 @@ public abstract class GymMember implements Serializable {
         this.loyaltyPoints = 0.0;
         this.activeStatus = false;
     }
-    
     // Accessor methods
     public int getId() { return id; }
     public String getDOB() { return DOB; }
