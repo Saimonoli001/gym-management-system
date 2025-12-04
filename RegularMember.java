@@ -19,7 +19,7 @@ public class RegularMember extends GymMember implements Serializable {
         this.plan = "basic";
         this.price = 6500.0;
     }
-    
+
     // Accessor methods
     public int getAttendanceLimit() { return attendanceLimit; }
     public boolean isEligibleForUpgrade() { return isEligibleForUpgrade; }
