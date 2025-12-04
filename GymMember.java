@@ -14,6 +14,7 @@ public abstract class GymMember implements Serializable {
     protected int attendance;
     protected double loyaltyPoints;
     protected boolean activeStatus;
+
     
     public GymMember(int id, String name, String location, String phone, String email, String gender, String DOB, String membershipStartDate) {
         this.id = id;
